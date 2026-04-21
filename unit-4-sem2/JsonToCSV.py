@@ -13,7 +13,11 @@ def json_to_csv(json_data, csv_file_name):
         writer.writerows(json_data)
     
     print(f"Data successfully written to {csv_file_name}")
-
+    with open(csv_file_name, mode='r') as csv_file:
+        reader= csv.reader(csv_file)
+        for row in reader:
+            print(row)
+        
 if __name__ == "__main__":
     # Example JSON array (usually you'd load this from a JSON file)
     json_data = [

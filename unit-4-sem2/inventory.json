@@ -1,0 +1,14 @@
+[
+    {
+        "Item": "Pen",
+        "Quantity": 100
+    },
+    {
+        "Item": "Notebook",
+        "Quantity": 45
+    },
+    {
+        "Item": "Eraser",
+        "Quantity": 80
+    }
+]
